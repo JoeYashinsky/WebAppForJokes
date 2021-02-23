@@ -15,9 +15,6 @@
             <th>
                 @Html.DisplayNameFor(model => model.Setup)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Punchline)
-            </th>
             <th></th>
         </tr>
     </thead>
@@ -26,9 +23,6 @@
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Setup)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Punchline)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
